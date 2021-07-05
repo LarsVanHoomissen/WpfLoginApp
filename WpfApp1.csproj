@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="andras-vas-Bd7gNnWJBkU-unsplash.jpg" />
+    <None Remove="Knipsel.PNG" />
+    <None Remove="luke-chesser-CxBx_J3yp9g-unsplash.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="andras-vas-Bd7gNnWJBkU-unsplash.jpg" />
+    <Resource Include="Knipsel.PNG" />
+    <Resource Include="luke-chesser-CxBx_J3yp9g-unsplash.jpg" />
+  </ItemGroup>
+
+</Project>
